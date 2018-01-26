@@ -1,4 +1,7 @@
 import sys
 
 for arg in sys.argv:
-    print(arg)
+    if arg == "-help" or arg == "-h":
+        print("help info")
+        break
+        
