@@ -5,8 +5,8 @@ class Solution:
             for j in range(i+1, nums_len):
                 if nums[i] + nums[j] == target:
                     result = []
-                    result.append(nums[i])
-                    result.append(nums[j])
+                    result.append(i)
+                    result.append(j)
                     return result
 
 def main():
