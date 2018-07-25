@@ -1,7 +1,8 @@
-import sys
-
-for arg in sys.argv:
-    if arg == "-help" or arg == "-h":
-        print("help info")
-        break
-        
+#print("Hello world!")
+print("Hello again")
+print("I like typing this")
+print("This is fun")
+print("Yay ! Printing")
+print("I'd much rather you 'not'")
+print('I "said" do not touch this.')
+   
